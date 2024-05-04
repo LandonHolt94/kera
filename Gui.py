@@ -19,7 +19,7 @@ LABEL = {0:'0', 1:'1', 2:'2', 3:'3', 4:'4', 5:'5', 6:'6', 7:'7', 8:'8', 9:'9'}
 pygame.init()
 
 
-FONT = pygame.font.FontTyper('freesansbold.ttf', 24)
+pygame.font.init()
 pygame.display.set_mode((WINDOWSIZEX, WINDOWSIZEY))
 
 pygame.display.set_caption('Digit Recognizer')
